@@ -166,3 +166,104 @@ body{
     color: rgb(0, 0, 255);
     background: white;
 }
+
+.menu .back .item{
+    display: none;
+}
+
+a.item span{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+span.mdi-open-in-new {
+    transform: translateX(70px) translateY(1px);
+}
+
+#RAP-footer{
+    margin-top: 10px;
+}
+
+#RAP-footer .r-body-inner {
+    padding: 50px 20px 40px;
+}
+
+.footer-main {
+    background: gray;
+}
+
+.footer-main .r-body-inner {
+    padding: 50px 20px 40px;
+}
+
+.footer-main h3{
+    color: white;
+}
+
+.footer-main p {
+    display: block;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.main-block {
+    padding: 0% 5% 15px;
+    flex: calc(33.3333% - 10%);
+}
+
+.main-block h3{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 0 30px;
+    position: relative;
+}
+
+.main-block h3:after{
+    content: "";
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0;
+    border-radius: 5px;
+    width: 35px;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.création {
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0,1);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.création:hover {
+    background: white;
+    color: rgb(0, 0, 255);
+}
+
+.langue{
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0,1);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 800;
+    margin-bottom: -20px;
+    align-items: center;
+}
+
+.langue:hover {
+    background: white;
+    color: rgb(0, 0, 255);
+}
