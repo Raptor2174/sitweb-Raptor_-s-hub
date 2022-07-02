@@ -1,5 +1,5 @@
 @media screen and (min-width : 750px){
-        .r-body-inner {
+    .r-body-inner {
         display: flex;
     }
 }

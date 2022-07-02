@@ -13,8 +13,13 @@ body{
     box-sizing: border-box;
 }
 
-.menu .back .items{
-    display: none;
+.container.main-container {
+    z-index: 1340;
+}
+
+#page {
+    position: relative;
+    display: flex;
 }
 
 #RAP-header-bg{
@@ -266,4 +271,94 @@ span.mdi-open-in-new {
 .langue:hover {
     background: white;
     color: rgb(0, 0, 255);
+}
+
+.footer-copyright {
+    background: #2f3640;
+    line-height: 25px;
+}
+
+.footer-copyright .r-body-inner {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.copyright-text {
+    position: relative;
+    color: rgba(100, 100, 100, 0.8);
+}
+
+;.copyright-text B{
+    margin-left: 60px;
+}
+
+.copyright-text b,
+.copyright-text small{
+    font-size: 14px;
+}
+
+.copyright-text small:before{
+    content: "-";
+    margin: 0 5px 0 7px;
+    display: inline-block;
+}
+
+.copyright-links {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.copyright-links a {
+    font-weight: 600;
+    text-decoration: none;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.copyrignt-links a:focus,
+.copyrignt-links a:hover{
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.copyrignt-links a:first-child{
+    margin-right: 20px;
+}
+
+#full-size {
+    width: 100%;
+    padding: 0 10%;
+    border-radius: 5px;
+}
+
+.boite-index {
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 24%;
+    margin-bottom: 2%;
+}
+
+.update-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(50,50,50);
+    text-align: left;
+}
+
+.update-data {
+    font-size: 16px;
+    font-weight: 200;
+    color: rgba(50, 50, 50, 0.5);
+    text-align: left;
+    padding: 0% 3%;
+}
+
+.motif{
+    border-top: 1px solid rgb(50, 50, 50);
+    text-align: left;
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+    padding: 1% 3%;
 }
