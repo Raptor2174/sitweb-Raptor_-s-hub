@@ -1,5 +1,5 @@
 html{
-    width: -webkit-fill-available; 
+    width: fill-available; 
 }
 
 body{
@@ -457,4 +457,63 @@ span.mdi-open-in-new {
     font-size: 1em;
     font-weight: 600;
     color: var(--main-color);
+}
+
+#projet {
+    background-color: white;
+    width: fill-available;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -10px;
+    margin-top: 40px;
+    padding: 2vh 0;
+}
+
+#projet .inner {
+    display: flex;
+    width: 80vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#projet .inner .projet {
+    width: 20vw;
+    height: 20vw;
+    overflow: hidden;
+}
+
+#projet .inner .projet.id1 {
+    background: url("img\technicien.png") no-repeat;
+    background-color: silver;
+    background-size: 20vw;
+}
+
+#projet .inner .projet.id2 {
+    background: url("img\captur sur vseeface.PNG") no-repeat;
+    background-color: #3498db;
+}
+
+#projet .inner .projet .main {
+    height: 40vw;
+    width: 20vw;
+    transition: transform 1s ease-in-out, backdrop-filler 0.5s ease-in-out;
+}
+
+#projet .inner .projet .main:hover {
+    transform: translateY(-20vw);
+    backdrop-filter: blur(2px);
+}
+
+#projet .inner .projet .main .shown {
+    width: 20vw;
+    height: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#projet .inner .projet .main .hidden {
+    width: 20vw;
+    height: 20vw;
 }

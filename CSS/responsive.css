@@ -195,7 +195,7 @@
 
 @media screen and (max-width: 750px) {
     .copyright-text {
-        width: -webkit-fill-avallable;
+        width: fill-available;
         text-align: center;
     }
 
