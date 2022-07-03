@@ -517,3 +517,161 @@ span.mdi-open-in-new {
     width: 20vw;
     height: 20vw;
 }
+
+.boxes {
+    background: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.gradees {
+    width: fill-available;
+    padding: 0 2vw;
+    margin-bottom: 2vh;
+    text-align: center;
+}
+
+.box-title {
+    cursor: default;
+    text-align: left;
+    position: relative;
+    padding: 0;
+    margin-bottom: 2vh;
+    font-size: 20px;
+    color: #3498db;
+    font-weight: 600;
+}
+
+.box-title:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 1vw;
+    width: 30%;
+    height: 2px;
+    background: #ddd;
+}
+
+.rank-header {
+    display: flex;
+    padding: 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rank-title {
+    font-weight: 600;
+    margin: 0;
+}
+
+.rank-vip {
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #666;
+}
+
+.rank-bg {
+    display: block;
+    width: 100%;
+    max-height: 100px;
+    background: #eee;
+    position: relative;
+    border-radius: 5px;
+    background: #ddd no-repeat center / cover;
+}
+
+.rank--vip .rank-bg {
+    background-color: rgb(255, 230, 90);
+    height: 160px;
+    background-image: url("");
+}
+
+.rank--vip .rank-character {
+    width: 200px;
+    height: 160px;
+    background-image: url("");
+}
+
+.rank--vip .rank-header .rank-RAP {
+    color: rgb(136, 132, 77);
+}
+
+.rank--vip .rank-header .rank-RAP{
+    background: rgb(136, 132, 77);
+}
+
+.rank--vip .rank-header .rank-RAP:focus,
+.rank--vip .rank-header .rank-RAP:hover {
+    background: #6e693e;
+}
+
+
+.rank--vipplus .rank-bg {
+    background-color: rgb(255, 230, 90);
+    height: 160px;
+    background-image: url("");
+}
+
+.rank--vipplus .rank-character {
+    width: 200px;
+    height: 160px;
+    background-image: url("");
+}
+
+.rank--vipplus .rank-header .rank-RAP {
+    color: rgb(136, 132, 77);
+}
+
+.rank--vipplus .rank-header .rank-RAP{
+    background: rgb(136, 132, 77);
+}
+
+.rank--vipplus .rank-header .rank-RAP:focus,
+.rank--vipplus .rank-header .rank-RAP:hover {
+    background: rgba(0, 0, 255, 0.5);
+}
+
+.rank-character {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: no-repeat bottom center / auto 100%;
+    margin: 0 auto;
+}
+
+.park {
+    position: relative;
+    padding: 5% 10%;
+    border-top: 1px solid #d2d2d4;
+}
+
+.rank--vip .rank-perks .perk {
+    color: rgb(0, 0, 255);
+}
+
+.rank-RAP {
+    background: #777;
+    font-weight: 700;
+    outline: none;
+    letter-spacing: 1px;
+    padding-left: 13px;
+    color: white;
+    border-bottom: 3px solid rgba(0, 0, 0, 14);
+}
+
+.RAP {
+    border-radius: 5px;
+    border-width: 0 0 3px;
+    font-weight: 600;
+    padding: 9px 12px 6px;
+    font-size: 13px;
+    text-shadow: 0 2px 1px rgb(0, 0, 0 / 10%);
+}
+
+@keyframes descriptionShow {
+    0%{transform: translateY(0px)}
+    100%{transform: translateY(-20vw)}
+}
