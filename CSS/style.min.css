@@ -1,3 +1,7 @@
+html{
+    width: -webkit-fill-available; 
+}
+
 body{
     font-family: "Poppins",sans-serif;
     margin: 0;
@@ -5,6 +9,7 @@ body{
     display: flex;
     min-height: 100%;
     flex-direction: column;
+    --main-color: #2c3e50;
 }
 
 body.active {
@@ -159,16 +164,16 @@ body.active {
     bottom: 0;
 }
 
-.box.social a i.mdi-youtube{
-    font-size: 24px;
+.box.social a i.mdi.mdi-youtube{
+    font-size: 25px;
 }
 
-.box.social a i.mdi-discord{
+.box.social a i.mdi.mdi-discord{
     top: 1px;
-    font-size: 24px;
+    font-size: 25px;
 }
 
-.box.social a i.mdi-twitch{
+.box.social a i.mdi.mdi-twitch{
     font-size: 25px;
 }
 
@@ -203,7 +208,7 @@ span.mdi-open-in-new {
 }
 
 .footer-main {
-    background: gray;
+    background: var(--main-color);
 }
 
 .footer-main .r-body-inner {
@@ -343,10 +348,10 @@ span.mdi-open-in-new {
 
 .boite-index {
     background: white;
-    border-radius: 5px;
+    border-radius: 10px;
     text-align: center;
     width: 80vw;
-    padding: 24%;
+    padding: 2%;
     margin-bottom: 2%;
     box-shadow: 1px 1px 12px #555;
 }
@@ -427,4 +432,29 @@ span.mdi-open-in-new {
     width: 69.4vw;
     height: 39.0375vw;
     display: inline;
+}
+
+.boite-support {
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    width: 80vw;
+    padding: 2%;
+    margin-bottom: 2%;
+    box-shadow: 1px 1px 12px #555;
+    padding: 0.2vw;
+}
+
+.boite-support .titre {
+    font-size: 2em;
+    font-weight: 600;
+    color: var(--main-color);
+    border-bottom: 1px solid;
+    padding: 1vh 2vw;
+}
+
+.boite-support .content {
+    font-size: 1em;
+    font-weight: 600;
+    color: var(--main-color);
 }
