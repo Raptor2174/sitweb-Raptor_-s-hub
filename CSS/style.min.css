@@ -39,6 +39,7 @@ body{
     height: 350px;
     display: flex;
     flex-direction: column;
+    box-shadow: 1px 1px 12px #555;
 }
 
 .header-nav{
@@ -109,7 +110,7 @@ body{
     width: 50%;
     height: 35%;
     max-width: 90%;
-    background: url("img/") no-repeat center/100% auto;
+    background: url("CSS\img\20220701-085339-1-VSeeFace.png") no-repeat center/100% auto;
 }
 
 .heaer-controls{
@@ -163,7 +164,7 @@ body{
 }
 
 .box.social a i.mdi-twitch{
-    font-size: 24px;
+    font-size: 25px;
 }
 
 .box.social a:focus,
@@ -328,6 +329,8 @@ span.mdi-open-in-new {
 
 #full-size {
     width: 100%;
+    padding: 0 10%;
+    border-radius: 5px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -335,18 +338,19 @@ span.mdi-open-in-new {
 
 .boite-index {
     background: white;
-    border-radius: 10px;
+    border-radius: 5px;
     text-align: center;
     width: 80vw;
     padding: 24%;
     margin-bottom: 2%;
+    box-shadow: 1px 1px 12px #555;
 }
 
 .update-title{
     font-weight: 600;
     font-size: 20px;
     color: rgb(50,50,50);
-    text-align: left;
+    text-align: center;
 }
 
 .update-data {
