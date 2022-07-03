@@ -7,6 +7,10 @@ body{
     flex-direction: column;
 }
 
+body.active {
+    overflow-x: hidden;
+}
+
 .container{
     width: 100%;
     padding: 0% 2%;
@@ -109,8 +113,9 @@ body{
     margin: 0 auto;
     width: 50%;
     height: 35%;
-    max-width: 90%;
-    background: url("CSS\img\20220701-085339-1-VSeeFace.png") no-repeat center/100% auto;
+    max-width: 100%;
+    background: url("img\rami-m-twitch-offline01.jpg") no-repeat center/100% auto;
+    box-shadow: 1px 1px 12px #555;
 }
 
 .heaer-controls{
