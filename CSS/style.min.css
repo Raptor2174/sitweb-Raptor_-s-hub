@@ -518,12 +518,6 @@ span.mdi-open-in-new {
     height: 20vw;
 }
 
-.boxes {
-    background: white;
-    border-radius: 5px;
-    padding: 20px;
-}
-
 .gradees {
     width: fill-available;
     padding: 0 2vw;
@@ -531,7 +525,13 @@ span.mdi-open-in-new {
     text-align: center;
 }
 
-.box-title {
+.boxes {
+    background: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.boxe-title {
     cursor: default;
     text-align: left;
     position: relative;
@@ -542,7 +542,7 @@ span.mdi-open-in-new {
     font-weight: 600;
 }
 
-.box-title:after {
+.boxe-title:after {
     content: "";
     position: absolute;
     bottom: -10px;
@@ -567,7 +567,7 @@ span.mdi-open-in-new {
 .rank-vip {
     font-weight: 700;
     letter-spacing: 1px;
-    color: #666;
+    color: black;
 }
 
 .rank-bg {
@@ -593,16 +593,16 @@ span.mdi-open-in-new {
 }
 
 .rank--vip .rank-header .rank-RAP {
-    color: rgb(136, 132, 77);
+    color: white;
 }
 
 .rank--vip .rank-header .rank-RAP{
-    background: rgb(136, 132, 77);
+    background: gray;
 }
 
 .rank--vip .rank-header .rank-RAP:focus,
 .rank--vip .rank-header .rank-RAP:hover {
-    background: #6e693e;
+    background: rgba(0, 0, 255, 0.5);
 }
 
 
@@ -619,11 +619,11 @@ span.mdi-open-in-new {
 }
 
 .rank--vipplus .rank-header .rank-RAP {
-    color: rgb(136, 132, 77);
+    color: white;
 }
 
-.rank--vipplus .rank-header .rank-RAP{
-    background: rgb(136, 132, 77);
+.rank--vipplus .rank-header .rank-RAP {
+    background: gray;
 }
 
 .rank--vipplus .rank-header .rank-RAP:focus,
@@ -642,14 +642,14 @@ span.mdi-open-in-new {
     margin: 0 auto;
 }
 
-.park {
+.perk {
     position: relative;
     padding: 5% 10%;
     border-top: 1px solid #d2d2d4;
 }
 
 .rank--vip .rank-perks .perk {
-    color: rgb(0, 0, 255);
+    color: black;
 }
 
 .rank-RAP {
