@@ -5,7 +5,7 @@ const img4 = document.querySelector(".image4");
 
 function next() {
     if(img1.classList.contains('displayed')) {
-        img1.classList.remove('displayer');
+        img1.classList.remove('displayed');
         img2.classList.add('displayed');
     } else if(img2.classList.contains('displayed')) {
         img2.classList.remove('displayed');
@@ -21,7 +21,7 @@ function next() {
 
 function prev() {
     if(img1.classList.contains('displayed')) {
-        img1.classList.remove('displayer');
+        img1.classList.remove('displayed');
         img4.classList.add('displayed');
     } else if(img4.classList.contains('displayed')) {
         img4.classList.remove('displayed');
