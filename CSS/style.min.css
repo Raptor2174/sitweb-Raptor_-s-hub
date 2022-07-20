@@ -71,7 +71,7 @@ body.active {
 
 .header-nav .item {
     font-size: 18px;
-    color: #3498db;
+    color: white;
     font-weight: 600;
     text-decoration: none;
     height: 50px;
@@ -119,8 +119,7 @@ body.active {
     width: 50%;
     height: 35%;
     max-width: 100%;
-    background: url("img\rami-m-twitch-offline01.jpg") no-repeat center/100% auto;
-    box-shadow: 1px 1px 12px #555;
+    background: url("img/logo\ Rapror_.png") no-repeat center/100% auto;
 }
 
 .heaer-controls{
