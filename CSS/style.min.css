@@ -674,3 +674,77 @@ span.mdi-open-in-new {
     0%{transform: translateY(0px)}
     100%{transform: translateY(-20vw)}
 }
+
+bodycon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #555;
+}
+
+form{
+    margin-top: 20px;
+    background-color: #777;
+    padding: 40px 60px;
+    border-radius: 10px;
+    min-width: 300px;
+}
+
+form h1{
+    color: #680000c9;
+    text-align: center;
+}
+
+form .social.media{
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form .social.media p{
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid rgb(50, 50, 50);
+    border-radius: 100%;
+    width: 19px;
+    text-align: center;
+    cursor: pointer;
+}
+
+form p.choose-email{
+    text-align: center;
+}
+
+form .inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+form .inputs input[type="email"], input[type="pasword"]{
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #d2d2d4;
+    margin-bottom: 15px;
+}
+
+form p.inscription{
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #2f3640;
+}
+
+form p.inscription span{
+    color: #680000c9;
+}
+
+form button{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #777;
+    background-color: #680000c9;
+    cursor: pointer;
+}
