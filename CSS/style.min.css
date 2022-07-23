@@ -484,13 +484,17 @@ span.mdi-open-in-new {
 
 #projet .inner .projet.id1 {
     background: url("img\technicien.png") no-repeat;
-    background-color: silver;
+    background-color: #555;
     background-size: 20vw;
+    border: none;
+    border-radius: 5px;
 }
 
 #projet .inner .projet.id2 {
     background: url("img\captur sur vseeface.PNG") no-repeat;
     background-color: #3498db;
+    border: none;
+    border-radius: 5px;
 }
 
 #projet .inner .projet .main {
@@ -515,6 +519,10 @@ span.mdi-open-in-new {
 #projet .inner .projet .main .hidden {
     width: 20vw;
     height: 20vw;
+}
+
+#projet .inner .projet .main .hidden .content .redirection {
+    color: white;
 }
 
 .gradees {
