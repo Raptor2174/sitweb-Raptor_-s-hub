@@ -11,3 +11,4 @@ plus d'information dans le discord
 <br>
 le projet est sur le ban pour en re crée un nouveau mieux organiser. <br>
 et pour m'amuser
+au final je me lasserai jamai ^^
