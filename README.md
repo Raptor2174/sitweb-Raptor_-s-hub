@@ -9,6 +9,4 @@ aunetement il y a baucoup de boulo pour corige mon code est pour regler tout <br
 je me suit ontesement inspiré d'une serie de videos youtube <br>
 plus d'information dans le discord
 <br>
-le projet est sur le ban pour en re crée un nouveau mieux organiser. <br>
-et pour m'amuser
-au final je me lasserai jamai ^^
+<br>
